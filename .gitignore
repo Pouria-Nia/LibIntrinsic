@@ -1,2 +1,9 @@
 .venv/
 venv/
+# Python cache artifacts
+__pycache__/
+*.pyc
+# Distribution / Packaging
+*.egg-info/
+dist/
+build/
