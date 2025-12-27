@@ -1,5 +1,6 @@
 from libintrinsic.datasets.loaders import get_sphere
 
+
 def main():
     print("--- Testing LibIntrinsic Mesh Loading ---")
 
@@ -12,6 +13,7 @@ def main():
 
     except Exception as e:
         print(f"Failed: {e}")
+
 
 if __name__ == "__main__":
     main()

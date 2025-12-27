@@ -1,6 +1,8 @@
 import numpy as np
+
 from libintrinsic.datasets.loaders import get_sphere
 from libintrinsic.spectral.laplacian import compute_mass_matrix
+
 
 def main():
     # 1. Load Sphere (r=1.0)
@@ -26,6 +28,7 @@ def main():
         print("✅ Physics Check Passed: Mass Matrix represents surface area.")
     else:
         print("❌ Physics Check Failed.")
+
 
 if __name__ == "__main__":
     main()
