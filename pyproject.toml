@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "libintrinsic"
+version = "0.0.1"
+description = "A Python library for intrinsic shape analysis."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    {name = "Pouria Shahhoseini Nia"}
+    ]
+dependencies = [
+    "numpy",
+    "scipy",
+    "trimesh",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
