@@ -7,3 +7,11 @@ __pycache__/
 *.egg-info/
 dist/
 build/
+# Datasets
+data/
+*.off
+*.obj
+# Temporary search files
+.temp_search/
+*.obj
+*.json

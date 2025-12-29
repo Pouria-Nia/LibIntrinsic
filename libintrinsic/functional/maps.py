@@ -28,3 +28,17 @@ def match_shapes_by_descriptors(desc1: np.ndarray, desc2: np.ndarray) -> np.ndar
     distances, matches = tree.query(desc1, k=1)
     
     return matches
+
+
+def shape_distance(sig1: np.ndarray, sig2: np.ndarray) -> float:
+    """
+    Calculates the geometric distance between two global signatures.
+    Lower values = More similar shapes.
+    
+    Args:
+        sig1, sig2: Global signatures (Global HKS or ShapeDNA).
+        
+    Returns:
+        float: The Euclidean distance (L2 Norm).
+    """
+    return float(np.linalg.norm(sig1 - sig2))
