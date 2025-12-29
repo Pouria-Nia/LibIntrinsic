@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: "Shahhoseini Nia"
+    given-names: "Pouria"
+title: "LibIntrinsic: Spectral Geometry and ShapeDNA for Computational Design"
+version: 0.1.0
+date-released: 2025-12-29
+url: "https://github.com/Pouria-Nia/LibIntrinsic"
+keywords:
+  - spectral-geometry
+  - shape-analysis
+  - topology
+  - grasshopper
+  - rhino3d
+  - python
+license: MIT
